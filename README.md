@@ -1,5 +1,8 @@
 ## 安装
 1. 安装Python3.6、pipenv
+```shell
+pip install -i https://mirrors.aliyun.com/pypi/simple pipenv
+```
 2. 初始化
 ```shell
 pipenv run pipenv install
@@ -12,5 +15,5 @@ pipenv install --verbose pandas
 ```
 4. 启动
 ```shell
-pipenv run python src/run.py
+pipenv run python main.py
 ```
