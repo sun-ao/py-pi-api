@@ -12,6 +12,8 @@ fastapi = "*"
 uvicorn = "*"
 kociemba = "*"
 aiofiles = "*"
+sqlalchemy = "*"
+pymysql = "*"
 
 [requires]
 python_version = "3"
